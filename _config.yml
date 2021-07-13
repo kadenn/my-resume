@@ -9,7 +9,7 @@ version: 2
 name: Kagan Demirhindi
 title: Software Developer
 email: k.demirhindi@gmail.com
-website: demirhindi.net
+# website: demirhindi.net
 
 # Dark Mode (true/false/never)
 darkmode: never
@@ -21,9 +21,9 @@ instagram_username: kagandemirhindi
 
 # Additional icon links
 additional_links:
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
+  - title: demirhindi.net
+    icon: fas fa-globe
+    url: http://demirhindi.net/
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
@@ -53,21 +53,21 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title: sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+      # - layout: top-middle
+      #   title: Super awesome project
+      #   link: github.com/sproogen
+      #   # link_text: Project Website
+      #   additional_links:
+      #     - title: sproogen/modern-resume-theme
+      #       icon: fab fa-github
+      #       url: github.com/sproogen/modern-resume-theme
+      #     # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+      #     #   icon: fab fa-github
+      #     #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+      #   quote: >
+      #     This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+      #   description: | # this will include new lines to allow paragraphs
+      #     I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
       - layout: top-middle
         title: CardAlpha ePOS Apps
@@ -108,16 +108,16 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-          Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+      # - layout: left
+      #   title: The Boring Company
+      #   link: boringcompany.com
+      #   # link_text: boringcompany.com
+      #   sub_title: Senior Network System Administrator
+      #   caption: November 2017 - Present
+      #   quote: >
+      #     Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+      #   description: | # this will include new lines to allow paragraphs
+      #     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
       - layout: left
         title: CardAlpha
@@ -143,38 +143,26 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-      - layout: left
         title: Ege University
-        caption: 2017 - 2021(August)
+        caption: 2017 - 2021
         sub_title: BSc Computer Science
         quote: >
-          Established in 1955, Ege University commonly ranks to the top among research universities in Turkey.
+          Established in 1955, Ege University commonly ranks at the top among research universities in Turkey.
         description: | # this will include new lines to allow paragraphs
-          In my first year of college, I spent a lot of my free time as a committee member of the [Ege Entrepreneurship Society](https://www.egegirisimcilik.com/) organizing technical visits to companies and campus events for students. Starting from the second year of college, I have worked as a developer in technology companies.
+          During my time at Ege University, I learned most of the key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thoroughly enjoyed my time at university and learned a lot about a healthy work-life balance.
 
-  - title: A Little More About Me # Title for the section
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+          In my first year of college, I spent a lot of my free time as a committee member of the [Ege Entrepreneurship Society](https://www.egegirisimcilik.com/) organizing technical visits to companies and campus events for students. Starting from the second year of college, I have worked as a software developer in technology companies.
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  # - title: A Little More About Me # Title for the section
+  #   layout: text
+  #   content: | # this will include new lines to allow paragraphs
+  #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+  #     - Rock climbing
+  #     - Gaming
+  #     - Knitting
+  #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-  - title: Tools # Title for the section
+  - title: Skills # Title for the section
     layout: text
     content: | # this will include new lines to allow paragraphs
       <mark>Go</mark> 
@@ -217,7 +205,7 @@ content:
       <mark>Prometheus</mark> 
       <mark>Grafana</mark> 
       <mark>Helm</mark> 
-      <mark>Ingress</mark>"
+      <mark>Ingress</mark>
 
 # Footer
 footer_show_references: true
