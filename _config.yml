@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Kagan Demirhindi
-title: Software Developer
+title: Full Stack Developer
 email: k.demirhindi@gmail.com
 # website: demirhindi.net
 
@@ -34,36 +34,73 @@ additional_links:
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.png
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name’s Kagan and I’m a back end developer.
+about_content: |
+  Hi, my name is Kagan, I’m a full stack web developer with over 2 years of experience currently specialising in back end development.
   I was always interested in computers since I was a kid.
-  My interest in servers started when I made my own Minecraft server to play with my friends.
+  My interest in servers started when I created my own Minecraft server to play with my friends.
   Then I turned an unused computer into a server and even made some money from it.
   As I grow up, I continued to learn new things.
   I studied computer engineering in college to turn my passion into a career.
-  Now I have more than 2 years of work experience.
-  I worked on web development mostly.
   I can quickly learn the topics that serve my purpose. 
   I know that learning and memorizing are not the same thing.
   I always try to train my mind to think instead of memorizing things.
 
-  I am most skilled in: <mark>Go</mark>, <mark>Python</mark> and <mark>Docker</mark>
+  I have worked with a range of different languages and frameworks and I am always looking for opportunities to work with something new. 
+  The things that I currently have the most experience working with are: <mark>Go</mark>, <mark>Python</mark>, <mark>Java</mark>, <mark>Docker</mark>, <mark>GCP</mark>, <mark>TypeScript</mark> and <mark>React</mark>
 
 content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: CardAlpha
+        link: https://www.cardalpha.com/
+        sub_title: Full Stack Developer
+        caption: September 2020 - June 2021 (10mos)
+        quote: >
+          CardAlpha is a financial technology company based in London.
+        description: |
+          CardAlpha's ePOS App converts a small business owner's tablet or smartphone device into a powerful electronic cash register featuring a product catalogue with item description, prices, discounts, inventory tracking and digital receipts.
+
+      - layout: left
+        title: Galaksiya
+        link: https://www.galaksiya.com/
+        sub_title: Software Developer Intern
+        caption: February 2019 - September 2020 (1yr8mos)
+        quote: >
+          The company places high emphasis on inner organisation education to sustain research efforts.
+        description: |
+          I learned the basics of software development in the Galaksiya for almost 2 years. Managed to run both the school and work together.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Ege University
+        caption: September 2017 - July 2021 (GPA&#58;3.11/4.0)
+        sub_title: |
+          BSc Computer Science
+        quote: >
+          Established in 1955, Ege University commonly ranks at the top among research universities in Turkey.
+        description: |
+          During my time at Ege University, I learned most of the key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thoroughly enjoyed my time at university and learned a lot about a healthy work-life balance.
+
+          In my first year of college, I spent a lot of my free time as a committee member of the [Ege Entrepreneurship Society](https://www.egegirisimcilik.com/) organizing technical visits to companies and campus events for students. Starting from the second year of college, I have worked as a software developer in technology companies.
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       # - layout: top-middle
       #   title: Super awesome project
       #   link: github.com/sproogen
-      #   # link_text: Project Website
+      #   link_text: Project Website
       #   additional_links:
       #     - title: sproogen/modern-resume-theme
       #       icon: fab fa-github
       #       url: github.com/sproogen/modern-resume-theme
-      #     # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-      #     #   icon: fab fa-github
-      #     #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+      #     - title: Github page for project (eg. sproogen/modern-resume-theme)
+      #       icon: fab fa-github
+      #       url: Link to project (eg. sproogen.github.io/modern-resume-theme)
       #   quote: >
       #     This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
       #   description: | # this will include new lines to allow paragraphs
@@ -105,54 +142,6 @@ content:
         description: |
           I performed exploratory data analysis on domain-specific data using Seaborn, Pandas, Matplotlib and analyzed data sets to summarize their main characteristics with visual methods.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      # - layout: left
-      #   title: The Boring Company
-      #   link: boringcompany.com
-      #   # link_text: boringcompany.com
-      #   sub_title: Senior Network System Administrator
-      #   caption: November 2017 - Present
-      #   quote: >
-      #     Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-      #   description: | # this will include new lines to allow paragraphs
-      #     Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
-
-      - layout: left
-        title: CardAlpha
-        link: https://www.cardalpha.com/
-        sub_title: Full Stack Developer
-        caption: September 2020 - June 2021
-        quote: >
-          CardAlpha is a financial technology company based in London.
-        description: | # this will include new lines to allow paragraphs
-          CardAlpha's ePOS App converts a small business owner's tablet or smartphone device into a powerful electronic cash register featuring a product catalogue with item description, prices, discounts, inventory tracking and digital receipts.
-
-      - layout: left
-        title: Galaksiya
-        link: https://www.galaksiya.com/
-        sub_title: Software Developer Intern
-        caption: February 2019 - September 2020
-        quote: >
-          The company places high emphasis on inner organisation education to sustain research efforts.
-        description: | # this will include new lines to allow paragraphs
-          I learned the basics of software development in the Galaksiya for almost 2 years. Managed to run both the school and work together.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Ege University
-        caption: 2017 - 2021
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1955, Ege University commonly ranks at the top among research universities in Turkey.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Ege University, I learned most of the key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thoroughly enjoyed my time at university and learned a lot about a healthy work-life balance.
-
-          In my first year of college, I spent a lot of my free time as a committee member of the [Ege Entrepreneurship Society](https://www.egegirisimcilik.com/) organizing technical visits to companies and campus events for students. Starting from the second year of college, I have worked as a software developer in technology companies.
-
   # - title: A Little More About Me # Title for the section
   #   layout: text
   #   content: | # this will include new lines to allow paragraphs
@@ -164,7 +153,7 @@ content:
 
   - title: Skills # Title for the section
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       <mark>Go</mark> 
       <mark>gRPC</mark> 
       <mark>Google Cloud Platform</mark> 
