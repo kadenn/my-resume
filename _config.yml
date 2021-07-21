@@ -1,11 +1,9 @@
-# Site
 repository: kadenn/my-resume
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
-# Personal info
 name: Kagan Demirhindi
 title: Full Stack Developer
 email: k.demirhindi@gmail.com
@@ -14,12 +12,10 @@ email: k.demirhindi@gmail.com
 # Dark Mode (true/false/never)
 darkmode: never
 
-# Social links
 github_username: kadenn
 linkedin_username: kagan-demirhindi
 instagram_username: kagandemirhindi
 
-# Additional icon links
 additional_links:
   - title: demirhindi.net
     icon: fas fa-globe
@@ -31,176 +27,139 @@ additional_links:
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
-# About Section
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: |
-  Hi, my name is Kagan, I’m a full stack web developer with over 2 years of experience currently specialising in back end development.
-  I was always interested in computers since I was a kid.
-  My interest in servers started when I created my own Minecraft server to play with my friends.
-  Then I turned an unused computer into a server and even made some money from it.
-  As I grow up, I continued to learn new things.
-  I studied computer engineering in college to turn my passion into a career.
-  I can quickly learn the topics that serve my purpose. 
-  I know that learning and memorizing are not the same thing.
-  I always try to train my mind to think instead of memorizing things.
+  Hi, my name is Kagan, I’m a full stack web developer with over 2 years of experience.
+  I enjoy developing applications using the latest technologies to translate business requirements/logic into code.
+  The things that I currently have the most experience working with are: <mark>Go</mark> <mark>Python</mark> <mark>Docker</mark> <mark>Microservices</mark> <mark>TypeScript</mark> <mark>React</mark>
 
-  I have worked with a range of different languages and frameworks and I am always looking for opportunities to work with something new. 
-  The things that I currently have the most experience working with are: <mark>Go</mark>, <mark>Python</mark>, <mark>Java</mark>, <mark>Docker</mark>, <mark>GCP</mark>, <mark>TypeScript</mark> and <mark>React</mark>
+  I was always interested in computers since I was a kid.
+  My interest in programming started when I created my own Minecraft server to play with my friends.
+  As I grew up, I continued to learn new things.
+  I studied computer engineering in college to turn my passion into a career.
+  I am able to learn and implement new concepts/tools quickly and easily. 
+  I know that learning and memorizing are not the same thing.
+  I always train my mind to think instead of memorizing things.
+
+  I am currently living in Turkey, but as I am a British citizen, **I have a residence and work permit in the UK.**
 
 content:
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list # (list/text)
     content:
       - layout: left
-        title: CardAlpha
-        link: https://www.cardalpha.com/
+        title: CardAlpha, London
+        link: www.cardalpha.com
         sub_title: Full Stack Developer
         caption: September 2020 - June 2021 (10mos)
-        quote: >
-          CardAlpha is a financial technology company based in London.
         description: |
-          CardAlpha's ePOS App converts a small business owner's tablet or smartphone device into a powerful electronic cash register featuring a product catalogue with item description, prices, discounts, inventory tracking and digital receipts.
+          *CardAlpha is a financial technology company based in London, England.
+          CardAlpha's ePOS App converts a small business owner's tablet or smartphone device into a powerful electronic cash register.*
+
+          - Learned about the working culture in London.
+          Working as a full stack developer has taught me to be outcome focused.
+          Working as part of a small team, I had the opportunity to work closely with the CEO and CTO defining what we were building.
+
+          - Wrote microservices in <mark>Golang</mark> which communicates over <mark>gRPC</mark>.
+          <mark>Dockerized</mark> and deployed on a <mark>Google Kubernetes Engine</mark> cluster.
+
+          - Integrated our API with our partner bank's API which automates the merchant underwriting and on-boarding process.
+          Significantly reduced the time between signing a contract and processing transactions to just a few hours.
+
+          - I was asked to translate an existing IOS app to the web based <mark>React</mark> app. 
+          Developed CardAlpha's web based mobile app in <mark>TypeScript</mark> using <mark>Ionic</mark> <mark>React</mark> and <mark>Capacitor</mark>. 
+          Used native SDKs by developing <mark>Capacitor</mark> plugins where web views were insufficient.
+
+          - Developed CardAlpha's [Pricing Calculator](https://cardalpha-pricing-calculator.web.app/) web app using <mark>TypeScript</mark> and deployed to <mark>Firebase</mark>.
 
       - layout: left
-        title: Galaksiya
-        link: https://www.galaksiya.com/
+        title: Galaksiya, Izmir
+        link: www.galaksiya.com
         sub_title: Software Developer Intern
         caption: February 2019 - September 2020 (1yr8mos)
-        quote: >
-          The company places high emphasis on inner organisation education to sustain research efforts.
         description: |
-          I learned the basics of software development in the Galaksiya for almost 2 years. Managed to run both the school and work together.
+          *Galaksiya is a software development and consultancy company based in Izmir, Turkey.
+          The company places high emphasis on inner organisation education to sustain research efforts.*
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+          - Learned the basics of software development in the Galaksiya. 
+          Working as an intern, I was testing the latest technologies and presenting the results of my work to the software devlopment team. 
+          I feel like having the opportunity to use a large range of different things early on in my career has given me the drive to always want to try new tools and frameworks.
+
+          - Developed a product catalog web application. 
+          Built microservices using <mark>Micronaut</mark> Framework in <mark>Java</mark>. 
+          Built database using <mark>PostgreSQL</mark> and connected to microservices using <mark>GraphQL</mark>. 
+          Used <mark>Docker</mark> for containerization, <mark>Docker Swarm</mark> for container orchestration, <mark>Junit</mark> for small (unit) testing, <mark>Selenium</mark> for large testing and <mark>HTML</mark> + <mark>CSS</mark> + <mark>JavaScript</mark> for client side.
+
+          - Developed an activity monitoring software to track users’ activity. 
+          Built REST API using <mark>Micronaut</mark> Framework in <mark>Java</mark> and REST client written in <mark>Python</mark>. 
+          Used <mark>Elasticsearch</mark> to store JSON data that comes in regularly from the client.
+          Used <mark>Kibana</mark> to visualize the content indexed on <mark>Elasticsearch</mark> and automated build/deployment pipeline using <mark>Bash</mark>.
+
+          - Built dozens of web scrapers with <mark>Scrapy-Splash</mark> to extract gigabytes of data daily from different e-commerce websites every day.
+          Prepared extracted data for machine learning model training using <mark>Python</mark>.
+
+          - Performed exploratory data analysis on domain-specific data using <mark>Seaborn</mark>, <mark>Pandas</mark>, <mark>Matplotlib</mark> and analyzed data sets to summarize their main characteristics with visual methods.
+
+  - title: Education
+    layout: list # (list/text)
     content:
       - layout: left
         title: Ege University
-        caption: September 2017 - July 2021 (GPA&#58;3.11/4.0)
+        caption: 2017 - 2021 (GPA&#58; 3.11/4.0)
         sub_title: |
           BSc Computer Science
-        quote: >
-          Established in 1955, Ege University commonly ranks at the top among research universities in Turkey.
         description: |
-          During my time at Ege University, I learned most of the key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thoroughly enjoyed my time at university and learned a lot about a healthy work-life balance.
+          *Established in 1955, Ege University commonly ranks at the top among research universities in Turkey.*
 
-          In my first year of college, I spent a lot of my free time as a committee member of the [Ege Entrepreneurship Society](https://www.egegirisimcilik.com/) organizing technical visits to companies and campus events for students. Starting from the second year of college, I have worked as a software developer in technology companies.
+          During my degree at Ege University, I learnt lots of key skills such as teamwork and project management.
+          In my first year of college, I spent a lot of my free time as a committee member of the [Ege Entrepreneurship Society](https://www.egegirisimcilik.com/) organizing technical visits to companies and campus events for students. 
+          Starting from the second year of college, I have worked as a developer and managed to run both the school and work together.
 
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      # - layout: top-middle
-      #   title: Super awesome project
-      #   link: github.com/sproogen
-      #   link_text: Project Website
-      #   additional_links:
-      #     - title: sproogen/modern-resume-theme
-      #       icon: fab fa-github
-      #       url: github.com/sproogen/modern-resume-theme
-      #     - title: Github page for project (eg. sproogen/modern-resume-theme)
-      #       icon: fab fa-github
-      #       url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-      #   quote: >
-      #     This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-      #   description: | # this will include new lines to allow paragraphs
-      #     I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  - title: Software Skills
+    layout: text
+    content: |
+      **Backend:** <mark>Golang</mark> <mark>Python</mark> <mark>JavaScript</mark> <mark>NodeJS</mark> <mark>ExpressJS</mark> <mark>Firebase</mark> <mark>Postman</mark> <mark>Java</mark> <mark>C#</mark> <mark>gRPC</mark> <mark>GraphQL</mark>
 
-      - layout: top-middle
-        title: CardAlpha ePOS Apps
-        description: |
-          CardAlpha's web based mobile apps. We developed native IOS and Android apps in TypeScript using Ionic React and Capacitor. We used native SDKs by developing Capacitor plugins where web views were insufficient.
+      **Database:** <mark>PostgreSQL</mark> <mark>CockroachDB</mark> <mark>Elastic Search</mark> <mark>MongoDB</mark> <mark>SQL</mark> 
 
-      - layout: top-middle
-        title: CardAlpha Backend
-        description: |
-          We built high performance microservices with Go and gRPC. Deployed it to Google Kubernetes Engine.
+      **Frontend:** <mark>TypeScript</mark> <mark>JavaScript</mark> <mark>ReactJS</mark> <mark>Ionic</mark> <mark>Capacitor</mark> <mark>Bootstrap</mark> <mark>CSS</mark>
 
-      - layout: top-middle
-        title: CardAlpha Pricing Calculator
-        link: https://cardalpha-pricing-calculator.web.app/
-        description: |
-          CardAlpha's pricing calculator. We developed web app using TypeScript and deployed to Firebase.
+      **Containerization:** <mark>Docker</mark> <mark>Kubernetes</mark> 
 
-      - layout: top-middle
-        title: Galaksiya Product Catalog
-        description: |
-          A product catalog web application. I built microservices using Micronaut Framework in Java. Built database using PostgreSQL and connected to microservices using GraphQL. Used Docker for containerization, Docker Swarm for container orchestration, Junit for small (unit) testing, Selenium for large testing and HTML + CSS + JS(Vanilla) for client side.
+      **Cloud:** <mark>Google Cloud Platform</mark> <mark>DigitalOcean</mark> 
 
-      - layout: top-middle
-        title: Galaksiya Activity Monitor
-        description: |
-          Activity monitoring software to track users’ activity. I built REST API using Micronaut Framework in Java. REST Client written in Python. Server gets JSON data from Client and stores it into Elasticsearch. Used Kibana to visualize the content indexed on Elasticsearch and automated build/deployment pipeline using Bash.
+      **Monitoring:** <mark>Elastic Stack</mark> <mark>Kibana</mark> <mark>Prometheus</mark> <mark>Grafana</mark>  
 
-      - layout: top-middle
-        title: Galaksiya Web Scraper
-        description: |
-          A web scraper with Scrapy-Splash to extract data from e-commerce websites. I prepared extracted data for machine learning with Python.
+      **Testing:** <mark>Selenium</mark> <mark>JUnit</mark> 
 
-      - layout: top-middle
-        title: Galaksiya EDA Project
-        description: |
-          I performed exploratory data analysis on domain-specific data using Seaborn, Pandas, Matplotlib and analyzed data sets to summarize their main characteristics with visual methods.
+      **Operating Systems:** <mark>MacOS</mark> <mark>Linux</mark> <mark>Bash</mark> <mark>Terminal</mark> 
 
-  # - title: A Little More About Me # Title for the section
+      **Development:** <mark>Github</mark> <mark>Agile</mark> <mark>Scrum</mark> <mark>Kanban</mark> <mark>OpenAPI</mark> 
+
+      **Data:** <mark>Pandas</mark> <mark>Seaborn</mark> <mark>Scikit-Learn</mark>
+
+  # - title: Projects
+  #   layout: list
+  #   content:
+  #     - layout: top-middle
+  #       title: Social Media App
+  #       github: kadenn/social-media-app
+  #       description: |
+  #         ONCE DEPLOY ET SONRA EKLE
+
+  # - title: A Little More About Me
   #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
+  #   content: |
   #     Alongside my interests in networks and software engineering some of my other interests and hobbies are:
   #     - Rock climbing
   #     - Gaming
   #     - Knitting
   #     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-  - title: Skills # Title for the section
-    layout: text
-    content: |
-      <mark>Go</mark> 
-      <mark>gRPC</mark> 
-      <mark>Google Cloud Platform</mark> 
-      <mark>Firebase</mark>
-      <mark>CockroachDB</mark> 
-      <mark>Ionic</mark> 
-      <mark>React</mark> 
-      <mark>Typescript</mark> 
-      <mark>Capacitor</mark> 
-      <mark>WebView</mark> 
-      <mark>Postman</mark> 
-      <mark>Linux</mark> 
-      <mark>Python</mark> 
-      <mark>Java</mark> 
-      <mark>Maven</mark> 
-      <mark>Micronaut</mark>
-      <mark>C#</mark> 
-      <mark>Selenium</mark> 
-      <mark>JUnit</mark> 
-      <mark>JMeter</mark> 
-      <mark>Bash</mark> 
-      <mark>Git</mark> 
-      <mark>JavaScript</mark> 
-      <mark>HTML</mark> 
-      <mark>CSS</mark>
-      <mark>SQL</mark>
-      <mark>PostgreSQL</mark>
-      <mark>OpenAPI</mark> 
-      <mark>Swagger</mark> 
-      <mark>Elastic Stack</mark> 
-      <mark>GraphQL</mark> 
-      <mark>Pandas</mark> 
-      <mark>Seaborn</mark> 
-      <mark>Scikit-Learn</mark> 
-      <mark>Ontology</mark>
-      <mark>Docker</mark> 
-      <mark>Kubernetes</mark> 
-      <mark>Prometheus</mark> 
-      <mark>Grafana</mark> 
-      <mark>Helm</mark> 
-      <mark>Ingress</mark>
-
-# Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
 
-# Build settings
 remote_theme: sproogen/resume-theme
 
 sass:
