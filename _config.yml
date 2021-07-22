@@ -119,7 +119,7 @@ content:
   - title: Software Skills
     layout: text
     content: |
-      **Backend:** <mark>Golang</mark> <mark>Python</mark> <mark>JavaScript</mark> <mark>NodeJS</mark> <mark>ExpressJS</mark> <mark>Firebase</mark> <mark>Postman</mark> <mark>Java</mark> <mark>C#</mark> <mark>gRPC</mark> <mark>GraphQL</mark>
+      **Backend:** <mark>Golang</mark> <mark>Python</mark> <mark>JavaScript</mark> <mark>NodeJS</mark> <mark>ExpressJS</mark> <mark>Firebase</mark> <mark>Postman</mark> <mark>OpenAPI</mark> <mark>Java</mark> <mark>C#</mark> <mark>gRPC</mark> <mark>GraphQL</mark>
 
       **Database:** <mark>PostgreSQL</mark> <mark>CockroachDB</mark> <mark>Elastic Search</mark> <mark>MongoDB</mark> <mark>SQL</mark> 
 
