@@ -89,7 +89,7 @@ content:
           - Developed a product catalog web application. 
           Built microservices using <mark>Micronaut</mark> Framework in <mark>Java</mark>. 
           Built database using <mark>PostgreSQL</mark> and connected to microservices using <mark>GraphQL</mark>. 
-          Used <mark>Docker</mark> for containerization, <mark>Docker Swarm</mark> for container orchestration, <mark>Junit</mark> for small (unit) testing, <mark>Selenium</mark> for large testing and <mark>HTML</mark> + <mark>CSS</mark> + <mark>JavaScript</mark> for client side.
+          Used <mark>Docker</mark> for containerization, <mark>Docker Swarm</mark> for container orchestration, <mark>Junit</mark> for small (unit) testing, <mark>Selenium</mark> for large testing and <mark>HTML</mark> <mark>CSS</mark> <mark>JavaScript</mark> for client side.
 
           - Developed an activity monitoring software to track users’ activity. 
           Built REST API using <mark>Micronaut</mark> Framework in <mark>Java</mark> and REST client written in <mark>Python</mark>. 
@@ -99,7 +99,7 @@ content:
           - Built dozens of web scrapers with <mark>Scrapy-Splash</mark> to extract gigabytes of data daily from different e-commerce websites every day.
           Prepared extracted data for machine learning model training using <mark>Python</mark>.
 
-          - Performed exploratory data analysis on domain-specific data using <mark>Seaborn</mark>, <mark>Pandas</mark>, <mark>Matplotlib</mark> and analyzed data sets to summarize their main characteristics with visual methods.
+          - Performed exploratory data analysis on domain-specific data using <mark>Seaborn</mark> <mark>Pandas</mark> <mark>Matplotlib</mark> and analyzed data sets to summarize their main characteristics with visual methods.
 
   - title: Education
     layout: list # (list/text)
