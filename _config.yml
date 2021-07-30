@@ -32,7 +32,7 @@ about_profile_image: images/profile.png
 about_content: |
   Hi, my name is Kagan, I’m a full stack web developer with over 2 years of experience.
   I enjoy developing full stack web applications using the latest technologies to translate business requirements/logic into code.
-  The things that I currently have the most experience working with are: <mark>Go</mark> <mark>Python</mark> <mark>Docker</mark> <mark>JavaScript</mark> <mark>TypeScript</mark> <mark>NodeJS</mark> <mark>React</mark>
+  The things that I currently have the most experience working with are: <mark>Go</mark> <mark>Python</mark> <mark>Docker</mark> <mark>TypeScript</mark> <mark>NodeJS</mark> <mark>React</mark>
 
   I was always interested in computers since I was a kid.
   My interest in programming started when I created my own Minecraft server to play with my friends.
@@ -119,7 +119,7 @@ content:
   - title: Software Skills
     layout: text
     content: |
-      **Backend:** <mark>Golang</mark> <mark>Python</mark> <mark>JavaScript</mark> <mark>NodeJS</mark> <mark>ExpressJS</mark> <mark>Firebase</mark> <mark>Postman</mark> <mark>OpenAPI</mark> <mark>Java</mark> <mark>C#</mark> <mark>gRPC</mark> <mark>GraphQL</mark>
+      **Backend:** <mark>Golang</mark> <mark>Python</mark> <mark>JavaScript</mark> <mark>TypeScript</mark> <mark>NodeJS</mark> <mark>ExpressJS</mark> <mark>Firebase</mark> <mark>Postman</mark> <mark>OpenAPI</mark> <mark>Java</mark> <mark>C#</mark> <mark>gRPC</mark> <mark>GraphQL</mark>
 
       **Database:** <mark>PostgreSQL</mark> <mark>CockroachDB</mark> <mark>Elastic Search</mark> <mark>MongoDB</mark> <mark>SQL</mark> 
 
