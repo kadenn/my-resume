@@ -52,8 +52,10 @@ content:
         sub_title: Full Stack Developer
         caption: Novenber 2021 - Present
         description: |
-          *CardAlpha is a financial technology company based in London, England.
-          CardAlpha's ePOS App converts a small business owner's tablet or smartphone device into a powerful electronic cash register.*
+          *At Teamwork, we create business management applications that make teams more efficient, organized and happy. 
+          Our tools include work management, helpdesk, chat, sales CRM and content collaboration workspace software. 
+          They’re used by teams of all sizes, across all industries — from education to financial services*
+
 
       - layout: left
         title: CardAlpha, London
@@ -61,7 +63,8 @@ content:
         sub_title: Full Stack Developer
         caption: September 2020 - June 2021 (10mos)
         description: |
-          *At Teamwork, we create business management applications that make teams more efficient, organized and happy. Our tools include work management, helpdesk, chat, sales CRM and content collaboration workspace software. They’re used by teams of all sizes, across all industries — from education to financial services*
+          *CardAlpha is a financial technology company based in London, England.
+          CardAlpha's ePOS App converts a small business owner's tablet or smartphone device into a powerful electronic cash register.*
 
           - Learned about the working culture in London.
           Working as a full stack developer has taught me to be outcome focused.
