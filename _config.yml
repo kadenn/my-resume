@@ -30,9 +30,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: |
-  Hi, my name is Kagan, I’m a full stack web developer with over 2 years of experience.
+  Hi, my name is Kagan, I’m a full stack web developer with over 3 years of experience.
   I enjoy developing full stack web applications using the latest technologies to translate business requirements/logic into code.
-  The things that I currently have the most experience working with are: <mark>Go</mark> <mark>Python</mark> <mark>Docker</mark> <mark>JavaScript</mark> <mark>NodeJS</mark> <mark>React</mark>
+  The things that I currently have the most experience working with are: <mark>Go</mark> <mark>Python</mark> <mark>Docker</mark> <mark>JavaScript</mark> <mark>VueJS</mark>
 
   I was always interested in computers since I was a kid.
   My interest in programming started when I created my own Minecraft server to play with my friends.
@@ -46,15 +46,15 @@ content:
   - title: Experience
     layout: list # (list/text)
     content:
-      - layout: left
+     - layout: left
         title: Teamwork, Belfast
         link: www.teamwork.com
         sub_title: Full Stack Developer
-        caption: November 2021 - Present
+        caption: Novenber 2021 - Present
         description: |
           *At Teamwork, we create business management applications that make teams more efficient, organized and happy. 
           Our tools include work management, helpdesk, chat, sales CRM and content collaboration workspace software. 
-          They’re used by teams of all sizes, across all industries — from education to financial services.*
+          They’re used by teams of all sizes, across all industries — from education to financial services*
 
       - layout: left
         title: CardAlpha, London
