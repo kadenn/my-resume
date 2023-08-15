@@ -30,17 +30,16 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: |
-  Hi, my name is Kagan, I'm a full stack web developer with over 3 years of experience.
-  I enjoy developing full stack web applications using the latest technologies to translate business requirements/logic into code.
-  The things that I currently have the most experience working with are: <mark>Golang</mark> <mark>Python</mark> <mark>Docker</mark> <mark>JavaScript</mark> <mark>VueJS</mark>
+  Hi, my name is Kagan, and I'm a full stack web developer with over 4 years of experience.
+  I enjoy developing full stack web applications using the latest technologies to translate business requirements and logic into code.
+  My areas of expertise include: <mark>VueJS</mark>, <mark>JavaScript</mark>, <mark>Python</mark>, <mark>Docker</mark>, and <mark>Golang</mark>.
 
-  I was always interested in computers since I was a kid.
-  My interest in programming started when I created my own Minecraft server to play with my friends.
-  As I grew up, I continued to learn new things.
-  I studied computer engineering in college to turn my passion into a career.
-  I am able to learn and implement new concepts/tools quickly and easily. 
-  I know that learning and memorizing are not the same thing.
-  I always train my mind to think instead of memorizing things.
+  I've been interested in computers since I was a child.
+  My passion for programming began when I created my own Minecraft server to play with friends.
+  As I grew older, I continued to learn and explore new technologies.
+  I pursued a degree in computer engineering to turn my passion into a career.
+  I'm adept at learning and implementing new concepts and tools quickly.
+  I believe in understanding concepts rather than memorizing them, and I always strive to think critically and creatively.
 
 content:
   - title: Experience
@@ -50,33 +49,33 @@ content:
       title: Teamwork, Belfast
       link: www.teamwork.com
       sub_title: Full Stack Developer
-      caption: Novenber 2021 - Present
+      caption: November 2021 - Present
       description: |
-        *At Teamwork, we create business management applications that make teams more efficient, organized and happy. 
-        Our tools include work management, helpdesk, chat, sales CRM and content collaboration workspace software. 
-        They're used by teams of all sizes, across all industries — from education to financial services*
+        *At Teamwork, we create business management applications that make teams more efficient, organized, and happy. 
+        Our tools include work management, helpdesk, chat, sales CRM, and content collaboration workspace software. 
+        They're used by teams of all sizes, across all industries — from education to financial services.*
 
     - layout: left
       title: CardAlpha, London
       link: www.cardalpha.com
       sub_title: Full Stack Developer
-      caption: September 2020 - June 2021 (10mos)
+      caption: September 2020 - June 2021 (10 months)
       description: |
         *CardAlpha is a financial technology company based in London, England.
         CardAlpha's ePOS App converts a small business owner's tablet or smartphone device into a powerful electronic cash register.*
 
-        - Learned about the working culture in London.
-        Working as a full stack developer has taught me to be outcome focused.
-        Working as part of a small team, I had the opportunity to work closely with the CEO and CTO defining what we were building.
+        - Gained insights into the working culture in London.
+        As a full stack developer, I learned to be outcome-focused.
+        Working in a small team, I had the opportunity to work closely with the CEO and CTO to define our product.
 
-        - Wrote microservices in <mark>Golang</mark> which communicates over <mark>gRPC</mark>.
+        - Developed microservices in <mark>Golang</mark> that communicate over <mark>gRPC</mark>.
         <mark>Dockerized</mark> and deployed on a <mark>Google Kubernetes Engine</mark> cluster.
 
-        - Integrated our API with our partner bank's API which automates the merchant underwriting and on-boarding process.
-        Significantly reduced the time between signing a contract and processing transactions to just a few hours.
+        - Integrated our API with our partner bank's API, automating the merchant underwriting and onboarding process.
+        This significantly reduced the time between signing a contract and processing transactions to just a few hours.
 
-        - I was asked to translate an existing IOS app to the web based <mark>React</mark> app. 
-        Developed CardAlpha's web based mobile app in <mark>TypeScript</mark> using <mark>Ionic</mark> <mark>React</mark> and <mark>Capacitor</mark>. 
+        - Translated an existing iOS app into a web-based <mark>React</mark> app.
+        Developed CardAlpha's web-based mobile app in <mark>TypeScript</mark> using <mark>Ionic</mark>, <mark>React</mark>, and <mark>Capacitor</mark>.
         Used native SDKs by developing <mark>Capacitor</mark> plugins where web views were insufficient.
 
         - Developed CardAlpha's [Pricing Calculator](https://cardalpha-pricing-calculator.web.app/) web app using <mark>TypeScript</mark> and deployed to <mark>Firebase</mark>.
@@ -85,67 +84,51 @@ content:
       title: Galaksiya, Izmir
       link: www.galaksiya.com
       sub_title: Software Developer Intern
-      caption: February 2019 - September 2020 (1yr8mos)
+      caption: February 2019 - September 2020 (1 year 8 months)
       description: |
         *Galaksiya is a software development and consultancy company based in Izmir, Turkey.
-        The company places high emphasis on inner organisation education to sustain research efforts.*
+        The company places high emphasis on internal education to sustain research efforts.*
 
-        - Learned the basics of software development in the Galaksiya. 
-        Working as an intern, I was testing the latest technologies and presenting the results of my work to the software development team. 
-        I feel like having the opportunity to use a large range of different things early on in my career has given me the drive to always want to try new tools and frameworks.
+        - Learned the basics of software development at Galaksiya.
+        As an intern, I tested the latest technologies and presented the results to the software development team.
+        Having the opportunity to use a wide range of tools and frameworks early in my career has given me the drive to explore new technologies.
 
-        - Developed a product catalog web application. 
-        Built microservices using <mark>Micronaut</mark> Framework in <mark>Java</mark>. 
-        Built database using <mark>PostgreSQL</mark> and connected to microservices using <mark>GraphQL</mark>. 
-        Used <mark>Docker</mark> for containerization, <mark>Docker Swarm</mark> for container orchestration, <mark>Junit</mark> for small (unit) testing, <mark>Selenium</mark> for large testing and <mark>HTML</mark> <mark>CSS</mark> <mark>JavaScript</mark> for client side.
+        - Developed a product catalog web application.
+        Built microservices using the <mark>Micronaut</mark> Framework in <mark>Java</mark>.
+        Created a database using <mark>PostgreSQL</mark> and connected it to microservices using <mark>GraphQL</mark>.
+        Used <mark>Docker</mark> for containerization, <mark>Docker Swarm</mark> for container orchestration, <mark>Junit</mark> for unit testing, <mark>Selenium</mark> for large-scale testing, and <mark>HTML</mark>, <mark>CSS</mark>, <mark>JavaScript</mark> for the client side.
 
-        - Developed an activity monitoring software to track users' activity. 
-        Built REST API using <mark>Micronaut</mark> Framework in <mark>Java</mark> and REST client written in <mark>Python</mark>. 
-        Used <mark>Elasticsearch</mark> to store JSON data that comes in regularly from the client.
-        Used <mark>Kibana</mark> to visualize the content indexed on <mark>Elasticsearch</mark> and automated build/deployment pipeline using <mark>Bash</mark>.
+        - Developed an activity monitoring software to track users' activity.
+        Built a REST API using the <mark>Micronaut</mark> Framework in <mark>Java</mark> and a REST client in <mark>Python</mark>.
+        Used <mark>Elasticsearch</mark> to store JSON data from the client.
+        Visualized the content indexed on <mark>Elasticsearch</mark> using <mark>Kibana</mark> and automated the build/deployment pipeline with <mark>Bash</mark>.
 
-        - Built dozens of web scrapers with <mark>Scrapy-Splash</mark> to extract gigabytes of data daily from different e-commerce websites every day.
+        - Built dozens of web scrapers with <mark>Scrapy-Splash</mark> to extract gigabytes of data daily from various e-commerce websites.
         Prepared extracted data for machine learning model training using <mark>Python</mark>.
 
-        - Performed exploratory data analysis on domain-specific data using <mark>Seaborn</mark> <mark>Pandas</mark> <mark>Matplotlib</mark> and analyzed data sets to summarize their main characteristics with visual methods.
+        - Performed exploratory data analysis on domain-specific data using <mark>Seaborn</mark>, <mark>Pandas</mark>, <mark>Matplotlib</mark>, and visualized the main characteristics of the data sets.
 
   - title: Education
     layout: list # (list/text)
     content:
       - layout: left
         title: Ege University
-        caption: 2017 - 2021 (GPA&#58; 3.11/4.0)
+        caption: 2017 - 2021 (GPA: 3.11/4.0)
         sub_title: |
           BSc Computer Science
         description: |
-          *Established in 1955, Ege University commonly ranks at the top among research universities in Turkey.*
+          *Established in 1955, Ege University consistently ranks among the top research universities in Turkey.*
 
-          During my degree at Ege University, I learnt lots of key skills such as teamwork and project management.
-          In my first year of college, I spent a lot of my free time as a committee member of the [Ege Entrepreneurship Society](https://www.egegirisimcilik.com/) organizing technical visits to companies and campus events for students. 
-          Starting from the second year of college, I have worked as a developer and managed to run both the school and work together.
+          During my degree at Ege University, I acquired key skills such as teamwork and project management.
+          In my first year of college, I spent much of my free time as a committee member of the [Ege Entrepreneurship Society](https://www.egegirisimcilik.com/), organizing technical visits to companies and campus events for students.
+          Starting from my second year of college, I worked as a developer, successfully balancing both school and work.
 
   - title: Software Skills
     layout: text
     content: |
-      **Backend:** <mark>Golang</mark> <mark>Python</mark> <mark>JavaScript</mark> <mark>TypeScript</mark> <mark>NodeJS</mark> <mark>ExpressJS</mark> <mark>Firebase</mark> <mark>Postman</mark> <mark>OpenAPI</mark> <mark>Java</mark> <mark>C#</mark> <mark>gRPC</mark> <mark>GraphQL</mark>
-
-      **Database:** <mark>PostgreSQL</mark> <mark>CockroachDB</mark> <mark>Elastic Search</mark> <mark>MongoDB</mark> <mark>SQL</mark> 
-
-      **Frontend:** <mark>TypeScript</mark> <mark>JavaScript</mark> <mark>ReactJS</mark> <mark>Ionic</mark> <mark>Capacitor</mark> <mark>Bootstrap</mark> <mark>CSS</mark>
-
-      **Development:** <mark>Github</mark> <mark>Agile</mark> <mark>Scrum</mark> <mark>Kanban</mark> <mark>OpenAPI</mark> 
-
-      **Containerization:** <mark>Docker</mark> <mark>Kubernetes</mark> 
-
-      **Cloud:** <mark>Amazon Web Services</mark> <mark>Google Cloud Platform</mark> <mark>Heroku</mark> 
-
-      **Testing:** <mark>Selenium</mark> <mark>JUnit</mark> 
-
-      **Monitoring:** <mark>Elastic Stack</mark> <mark>Kibana</mark> <mark>Prometheus</mark> <mark>Grafana</mark>  
-
-      **Operating Systems:** <mark>MacOS</mark> <mark>Linux</mark> <mark>Bash</mark> <mark>Terminal</mark> 
-
-      **Data:** <mark>Pandas</mark> <mark>Seaborn</mark> <mark>Scikit-Learn</mark>
+      <mark>Golang</mark> <mark>gRPC</mark> <mark>Python</mark> <mark>JavaScript</mark> <mark>TypeScript</mark> <mark>NodeJS</mark> <mark>Firebase</mark> <mark>Postman</mark> <mark>OpenAPI</mark>
+      <mark>VueJS</mark> <mark>Capacitor</mark> <mark>Tailwind</mark> <mark>CSS</mark> <mark>Github</mark> <mark>Agile</mark> <mark>Scrum</mark> <mark>Kanban</mark> <mark>OpenAPI</mark>
+      <mark>Cloudflare</mark> <mark>Netlify</mark> <mark>Docker</mark> <mark>Docker Compose</mark> <mark>MacOS</mark> <mark>Linux</mark> <mark>Bash</mark> <mark>Terminal</mark>
 
   # - title: Projects
   #   layout: list
