@@ -126,9 +126,7 @@ content:
   - title: Software Skills
     layout: text
     content: |
-      <mark>Golang</mark> <mark>gRPC</mark> <mark>Python</mark> <mark>JavaScript</mark> <mark>TypeScript</mark> <mark>NodeJS</mark> <mark>Firebase</mark> <mark>Postman</mark> <mark>OpenAPI</mark>
-      <mark>VueJS</mark> <mark>Capacitor</mark> <mark>Tailwind</mark> <mark>CSS</mark> <mark>Github</mark> <mark>Agile</mark> <mark>Scrum</mark> <mark>Kanban</mark> <mark>OpenAPI</mark>
-      <mark>Cloudflare</mark> <mark>Netlify</mark> <mark>Docker</mark> <mark>Docker Compose</mark> <mark>MacOS</mark> <mark>Linux</mark> <mark>Bash</mark> <mark>Terminal</mark>
+      <mark>Golang</mark> <mark>gRPC</mark> <mark>Python</mark> <mark>JavaScript</mark> <mark>TypeScript</mark> <mark>NodeJS</mark> <mark>Firebase</mark> <mark>Postman</mark> <mark>OpenAPI</mark> <mark>VueJS</mark> <mark>Capacitor</mark> <mark>Tailwind</mark> <mark>CSS</mark> <mark>Github</mark> <mark>Agile</mark> <mark>Scrum</mark> <mark>Kanban</mark> <mark>OpenAPI</mark> <mark>Cloudflare</mark> <mark>Netlify</mark> <mark>Docker</mark> <mark>Docker Compose</mark> <mark>MacOS</mark> <mark>Linux</mark> <mark>Bash</mark> <mark>Terminal</mark>
 
   # - title: Projects
   #   layout: list
