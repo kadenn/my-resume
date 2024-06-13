@@ -48,7 +48,7 @@ content:
     - layout: left
       title: Teamwork, Belfast
       link: www.teamwork.com
-      sub_title: Full Stack Developer (Growth Engineer)
+      sub_title: Full Stack Developer & Growth Engineer
       caption: November 2021 - Present
       description: |
         *Teamwork.com is the only project management platform built specifically for client work.
@@ -63,7 +63,7 @@ content:
         - **Cross-Functional Collaboration**: Worked closely with designers, data analysts, project managers, and QA to release, maintain features, and ensure high software quality by meticulously testing and resolving bugs.
 
     - layout: left
-      title: looksounique, Remote
+      title: looksounique.com
       link: www.looksounique.com
       sub_title: Founder
       caption: October 2023 - November 2023
